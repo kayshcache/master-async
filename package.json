@@ -1,0 +1,31 @@
+{
+  "name": "master-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "logs": "pm2 monit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayshcache/master-async.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayshcache/master-async/issues"
+  },
+  "homepage": "https://github.com/kayshcache/master-async#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "helmet": "^3.21.2",
+    "morgan": "^1.9.1",
+    "pm2": "^4.2.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
